@@ -1,0 +1,17 @@
+============================================================
+  CLIPSeg Drywall — Evaluation Summary
+============================================================
+
+Model          : D:\origin\clipseg_drywall.pth
+Model size     : 603.2 MB
+Device         : cpu
+Prompt         : segment taping area
+Threshold mode : AUTO Otsu
+Avg threshold  : 0.1540
+Seed           : 42
+Total eval time: 119.2s
+
+Images : 123
+mIoU   : 0.2130
+mDice  : 0.3255
+ms/img : 943.3

@@ -1,0 +1,18 @@
+=================================================================
+  CLIPSeg Drywall QA — Evaluation Summary
+=================================================================
+
+Model weights  : D:\origin\clipseg_drywall_model.pth
+Model size     : 603.2 MB
+Device         : cpu
+Threshold      : 0.5
+Infer size     : (352, 352)
+Seed           : 42
+Total eval time: 92.1s
+
+Dataset                Prompt                         N     mIoU    mDice   ms/img
+--------------------------------------------------------------------------------
+Cracks                 segment crack                  4   0.4959   0.6552   1038.7
+Drywall Taping         segment taping area          123   0.0000   0.0000    659.1
+--------------------------------------------------------------------------------
+OVERALL                                             127   0.0156   0.0206
